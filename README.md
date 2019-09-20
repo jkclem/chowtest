@@ -44,4 +44,4 @@ first_index_in_model_2 | the index value (for example '2000-01-02') of the first
 
 ## Example
 
-This repository has an example of the chowtest package being used.
+The example folder in this repository has an example of the chowtest package being used at the very bottom of the notebook.
