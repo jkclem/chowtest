@@ -6,7 +6,7 @@ Created on Fri Sep 20 12:02:06 2019
 """
 
 # defines a function to get performance information about a linear regression using sklearn
-def linear_fit_and_residuals(X, y):
+def linear_residuals(X, y):
     
     # imports pandas as pd
     import pandas as pd
@@ -39,8 +39,8 @@ def linear_fit_and_residuals(X, y):
 # variable
 def calculate_RSS(X, y):
     
-    # calls the residual_data function
-    resid_data = linear_fit_and_residuals(X, y)
+    # calls the linear_residual function
+    resid_data = linear_residuals(X, y)
     # calculates the sum of squared resiudals
     rss = resid_data.residuals_sq.sum()
     
