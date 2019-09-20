@@ -7,29 +7,29 @@ An example of its use is here: https://towardsdatascience.com/the-time-series-th
 
 It contains 3 functions.
 
-1. linear_residuals(X, y) which returns a dataframe containing the predicted y-values, the actual y-values, the residuals of the linear regression, and their squared residuals.
+1. linear_residuals(X, y) which returns a pandas dataframe containing the predicted y-values, the actual y-values, the residuals of the linear regression, and their squared residuals.
 
 2. calculate_RSS(X, y) which returns the residual sum of squares from a linear regression
 
-3. ChowTest(X, y, last_index_in_model_1, first_index_in_model_2) which returns the p-value from a Chow Test
+3. ChowTest(X, y, last_index_in_model_1, first_index_in_model_2) which returns a tuple of the Chow Statistic and the p-value from the Chow Test
 
 ## Installation
 
 Clone this repository, move into the directory, and install with pip:
 
-git clone https://github.com/jkclem/chowtest.git
+`git clone https://github.com/jkclem/chowtest.git
 
 cd chowtest
 
-pip install .
+pip install .`
 
 In your Python code you can import it as:
 
-from chowtest import ChowTest
+`from chowtest import ChowTest`
 
 or 
 
-import chowtest
+`import chowtest as ct`
 
 to get all the functions.
 
