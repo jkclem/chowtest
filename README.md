@@ -14,6 +14,7 @@ It contains 3 functions.
 3. ChowTest(X, y, last_index_in_model_1, first_index_in_model_2) which returns the p-value from a Chow Test
 
 Installation
+
 Clone this repository, move into the directory, and install with pip:
 
 git clone https://github.com/jkclem/chowtest.git
@@ -33,11 +34,13 @@ to get all the functions.
 Usage
 The function has four parameters, and returns the a tuple of the Chow Statistic p-value of your Chow test.
 
-Parameter	Requirement
+Input	Requirements
+
 X:	a pandas DataFrame of the independent variable(s) in order (first row is the earliest observation and the last row is the latest observation)
 y:	a pandas DataFrame of the dependent variable in order (first row is the earliest observation and the last row is the latest observation)
 last_index_in_model_1: the index value (for example '2000-01-01') of the last observation to include in the pre-break point model
 first_index_in_model_2:	the index value (for example '2000-01-02') of the first observation to include in the post-break point model
 
 Example
+
 This repository has an example of the chowtest package being used.
