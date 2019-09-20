@@ -50,7 +50,7 @@ def calculate_RSS(X, y):
 
 
 # defines a function to return the p-value from a Chow Test
-def Chow_Test(X, y, last_index_in_model_1, first_index_in_model_2):
+def ChowTest(X, y, last_index_in_model_1, first_index_in_model_2):
     
     # gets the RSS for the entire period
     rss_pooled = calculate_RSS(X, y)
