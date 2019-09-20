@@ -33,10 +33,6 @@ or
 
 to get all the functions.
 
-## Usage
-
-The function has four inputs, and returns the a tuple of the Chow Statistic and p-value of your Chow test.
-
 ## Input	Requirements
 
 Input |Description 
