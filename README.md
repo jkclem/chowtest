@@ -17,11 +17,11 @@ It contains 3 functions.
 
 Clone this repository, move into the directory, and install with pip:
 
-`git clone https://github.com/jkclem/chowtest.git
+`git clone https://github.com/jkclem/chowtest.git`
 
-cd chowtest
+`cd chowtest`
 
-pip install .`
+`pip install .`
 
 In your Python code you can import it as:
 
@@ -39,10 +39,12 @@ The function has four inputs, and returns the a tuple of the Chow Statistic and 
 
 ## Input	Requirements
 
-X:	a pandas DataFrame of the independent variable(s) in order (first row is the earliest observation and the last row is the latest observation)
-y:	a pandas DataFrame of the dependent variable in order (first row is the earliest observation and the last row is the latest observation)
-last_index_in_model_1: the index value (for example '2000-01-01') of the last observation to include in the pre-break point model
-first_index_in_model_2:	the index value (for example '2000-01-02') of the first observation to include in the post-break point model
+Input |Description 
+___ | ___
+X |a pandas DataFrame of the independent variable(s) in order (first row is the earliest observation and the last row is the latest observation)
+y | a pandas DataFrame of the dependent variable in order (first row is the earliest observation and the last row is the latest observation)
+last_index_in_model_1 | the index value (for example '2000-01-01') of the last observation to include in the pre-break point model
+first_index_in_model_2 | the index value (for example '2000-01-02') of the first observation to include in the post-break point model
 
 ## Example
 
