@@ -18,7 +18,9 @@ It contains 3 functions.
 Clone this repository, move into the directory, and install with pip:
 
 git clone https://github.com/jkclem/chowtest.git
+
 cd chowtest
+
 pip install .
 
 In your Python code you can import it as:
