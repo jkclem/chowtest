@@ -40,7 +40,7 @@ The function has four inputs, and returns the a tuple of the Chow Statistic and 
 ## Input	Requirements
 
 Input |Description 
-___ | ___
+--- | ---
 X |a pandas DataFrame of the independent variable(s) in order (first row is the earliest observation and the last row is the latest observation)
 y | a pandas DataFrame of the dependent variable in order (first row is the earliest observation and the last row is the latest observation)
 last_index_in_model_1 | the index value (for example '2000-01-01') of the last observation to include in the pre-break point model
