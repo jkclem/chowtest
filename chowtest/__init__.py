@@ -5,6 +5,33 @@ Created on Fri Sep 20 12:02:06 2019
 @author: jkcle
 """
 
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@jkclem 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+1
+00jkclem/chowtest
+ Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights Settings
+chowtest/chowtest/__init__.py
+@jkclem jkclem Update __init__.py
+6d45b4b 3 minutes ago
+95 lines (70 sloc)  3.26 KB
+  
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Sep 20 12:02:06 2019
+@author: jkcle
+"""
+
 # defines a function to get performance information about a linear regression using sklearn
 def linear_residuals(X, y):
     
@@ -90,5 +117,8 @@ def ChowTest(X, y, last_index_in_model_1, first_index_in_model_2):
     # statistic from an F-distribution with k and N1 + N2 - 2k degrees of freedom
     p_value = 1 - f.cdf(Chow_Stat, dfn = 5, dfd = (N1 + N2 - 2 * k))
     
+    # saves the Chow_State and p_value in a tuple
+    result = (Chow_Stat, p_value)
+    
     # returns the p-value
-    return(p_value)
+    return(result)
