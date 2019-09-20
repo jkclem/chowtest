@@ -1,34 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Sep 20 12:02:06 2019
-
-@author: jkcle
-"""
-
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@jkclem 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-1
-00jkclem/chowtest
- Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights Settings
-chowtest/chowtest/__init__.py
-@jkclem jkclem Update __init__.py
-6d45b4b 3 minutes ago
-95 lines (70 sloc)  3.26 KB
-  
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Sep 20 12:02:06 2019
 @author: jkcle
 """
 
