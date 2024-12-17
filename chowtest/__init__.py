@@ -87,7 +87,7 @@ def ChowTest(X, y, last_index_in_model_1, first_index_in_model_2):
     
     # calculates the p-value by subtracting 1 by the cumulative probability at the Chow
     # statistic from an F-distribution with k and N1 + N2 - 2k degrees of freedom
-    p_value = 1 - f.cdf(Chow_Stat, dfn = 5, dfd = (N1 + N2 - 2 * k))
+    p_value = 1 - f.cdf(Chow_Stat, dfn = k, dfd = (N1 + N2 - 2 * k))
     
     # saves the Chow_State and p_value in a tuple
     result = (Chow_Stat, p_value)
