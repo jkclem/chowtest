@@ -16,6 +16,6 @@ setup(name='chowtest',
       license='MIT',
       packages=['chowtest'],
       install_requires=[
-          'pandas', 'numpy', 'sklearn', 'scipy'
+          'pandas', 'numpy', 'scikit-learn', 'scipy'
       ],
       zip_safe=False)
